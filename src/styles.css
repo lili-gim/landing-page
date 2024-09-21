@@ -93,3 +93,31 @@ p {
   box-shadow: var(--box-shadow);
   border-radius: 4px;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
